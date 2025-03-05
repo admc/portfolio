@@ -15,4 +15,6 @@ Hi 👋. Welcome to my developer advocate portfolio! I've worked on everything f
 
 ## artifacts included
 
-- graphics
+- conference and meetup talks
+- demo application to show what runme notebooks can do
+- graphics from conferences of the booth final product
