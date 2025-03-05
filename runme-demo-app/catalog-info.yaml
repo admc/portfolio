@@ -1,0 +1,15 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: demo-customer
+  namespace: stateful
+  description: Demo Customer
+  annotations:
+    github.com/project-slug: stateful/demo-customer
+    backstage.io/techdocs-ref: dir:.
+spec:
+  type: service
+  owner: user:stateful/admc
+  lifecycle: experimental
+  dependsOn:
+    - component:stateful/firefly

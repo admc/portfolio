@@ -1,0 +1,15 @@
+site_name: "Workflows"
+docs_dir: workflows
+nav:
+  - Kubernetes: index.md
+  - Release: release.md
+  - Setup: setup.md
+  - Teardown: teardown.md
+  - Troubleshoot: troubleshoot.md
+  - Upgrade: upgrade.md
+
+plugins:
+  - techdocs-core
+  - runme:
+      repository: git@github.com:stateful/demo-customer.git
+      docs_dir: workflows
